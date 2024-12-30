@@ -1,0 +1,76 @@
+div
+{
+  height: 100vh;
+  background-image: url("https://images7.alphacoders.com/134/1346188.png");
+  background-size:cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+}
+box
+{
+  width: 520px; 
+  height: 650px; 
+  margin: 0 auto; 
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  background-color: rgb(98, 120, 146);
+  border: black; 
+  color:none;
+  font-size: 18px; 
+  font-weight: bold; 
+  opacity: 0.5; 
+  border-radius: 10px; 
+}
+button
+{
+    padding: 10px ;
+    background-color:rgb(36, 174, 77);
+    color: rgb(0, 0, 0);
+    border: black;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    align-items: center;
+    
+}
+button:hover
+{
+    color : green;
+}
+form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(47, 13, 88);
+    margin-bottom: 20px;
+    text-align: center;
+    top: 0%;
+}
+label {
+    display: inline-block;
+    width: 150px; 
+    margin-bottom: 15px;
+    font-size: 18px;
+    vertical-align: middle; 
+    padding: 1px;
+}
+input[type="text"], input[type="date"], input[type="number"],button,select, textarea {
+    display: inline-block;
+    width: 200px; /* Increase the width for a larger input box */
+    height: 20px; /* Increase the height for a bigger input box */
+    padding: 3px; /* Add padding for better spacing */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    vertical-align: middle;
+}
