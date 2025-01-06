@@ -1,6 +1,9 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { Link } from "react-router-dom";
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import React from 'react';
+import Apps from './Apps.jsx';
+
+//import { Link } from "react-router-dom";
 // import './index.css'
 // import App from './App.jsx'
 // import Dog from'./Dog.jsx';
@@ -13,16 +16,17 @@ import { Link } from "react-router-dom";
 // import Usecontext from './Usecontext.jsx';*/
 //     //<Properties value= {5} />
 //     //<List />
+//import Appparams from './Appparams.jsx';
 
-import Appparams from './Appparams.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     {/* <List/>
+    {/* <List/>
     <Useeffect/>
     <Useref/>
     <Hooks_task />
-    /* <Hens name="Water"/> 
-    <Usecontext/>  */}
-    <Appparams/>
+    <Hens name="Water"/> 
+    <Usecontext/>  
+    <Appparams/>  */}
+    <Apps/>
   </StrictMode>, 
 )
