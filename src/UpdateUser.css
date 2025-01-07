@@ -1,0 +1,80 @@
+.update-page {
+    background-image: url('https://img.freepik.com/free-vector/topographic-map-background_23-2148596507.jpg?semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c3132;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6347; 
+    margin-bottom: 20px;
+}
+
+form {
+    width: 150%;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(70, 67, 67, 0.8); 
+}
+
+form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(2, 7, 48);
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4a5683;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #13a533;
+    color: rgb(255, 252, 252);
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 50%;
+}
+
+form button:hover {
+    background-color: #03390e;
+}
+
+.card {
+    background-color: rgba(108, 107, 107, 0.3); 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 48%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+}
+
+.card h2 {
+    color: rgb(165, 47, 47);
+    margin-top: 0;
+}
+
+.card p {
+    color: pink; 
+    margin: 5px 0;
+}

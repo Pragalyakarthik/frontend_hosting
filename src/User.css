@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #292828;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0;
+}
+.background-container {
+    background-image: url('https://t3.ftcdn.net/jpg/09/39/59/40/360_F_939594074_GUUZxmRPs4Wb8e8oQXrC1vU79aOk4K0z.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.content {
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 20px;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    width: 100%;
+}
+
+
+.card {
+    background-color: rgba(41, 41, 41, 0.7); 
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 25%; 
+    box-sizing: border-box; 
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.card h2 {
+    color: #ffffff;
+    font-size: 20px; 
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #f8f9fa;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px; 
+    text-align: center;
+    color: white;
+    background-color: #28a745; 
+    padding: 8px 12px; 
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background-color: #218838; 
+}
+
+button {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e60000;
+}
+
+.create-user-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    color: #c8e424;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.create-user-link:hover {
+    color: #c8d3df; 
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%; 
+    }
+
+    .header-container {
+        flex-direction: column; 
+    }
+
+    .cards-container {
+        flex-direction: column; 
+    }
+}
